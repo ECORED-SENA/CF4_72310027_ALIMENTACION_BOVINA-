@@ -5,8 +5,61 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Titulo de primer nivel
-      
+      h1 Impacto económico y ambiental de la ganadería
+
+    
+    p La ganadería, como uno de los pilares fundamentales del sector agropecuario, tiene un impacto considerable en la economía y el medio ambiente. Desde el punto de vista económico, contribuye significativamente al producto interno bruto (PIB) y es una fuente crucial de empleo e ingresos para muchas familias rurales.  
+
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-4
+      .bloque-texto-g__img(
+        :style="{'background-image':`url(${require('@/assets/curso/tema1/1.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 En respuesta a estos desafíos, han surgido alternativas de producción ganadera que buscan mitigar los efectos negativos sobre el medio ambiente, sin comprometer la productividad. Entre estas alternativas destacan los sistemas silvopastoriles, que integran árboles y arbustos con el pastoreo, y las cercas vivas, que además de dividir áreas dentro de las fincas, ofrecen beneficios ambientales y económicos.
+
+    .bg-full-width.bg-fondo-2
+      .px-4.px-md-5.pb-5
+        .titulo-tres.mb-4(data-aos="flip-up").mb-4
+          h4 Perspectiva económica 
+
+        .row.justify-content-center.align-items-center.mb-5
+          .col-lg-8
+            p(data-aos="fade-right") En Colombia, la actividad ganadera representa el #[strong 3 % de la riqueza nacional], tiene una participación del #[strong 26 % en la producción global] del sector agropecuario y genera el 60 % del PIB pecuario. Más allá de los números y cifras, la ganadería es la fuente de ingresos y sustento de miles de familias que ocupan de manera pacífica las complicadas zonas rurales del país. Inclusive, al día de hoy, la ganadería se ha convertido en una cultura, un estilo de vida que embarga a una buena parte de la población nacional y que representa la identidad e idiosincrasia de muchos colombianos, cuya gran mayoría no conoce otra forma de ganarse la vida. 
+          .col-lg-4(data-aos="fade-left")
+            img(src="@/assets/curso/tema1/2.png", style="max-width: 400px", alt="").m-auto.mt-lg-0
+
+
+        .titulo-tres.mb-4(data-aos="flip-up").mb-4
+          h4 Perspectiva medioambiental 
+
+        .row.justify-content-center.align-items-center.mb-5
+          .col-lg-8
+            p(data-aos="fade-right") Desde una perspectiva medioambiental, las actividades humanas han generado un impacto considerable en los ecosistemas, afectando tanto la biodiversidad como la calidad del aire, suelo y agua. Este enfoque busca comprender cómo prácticas como la agricultura, la ganadería y la industria influyen en el equilibrio natural, promoviendo soluciones sostenibles para mitigar el daño y preservar los recursos para las futuras generaciones. 
+          .col-lg-4(data-aos="fade-left")
+            img(src="@/assets/curso/tema1/3.png", style="max-width: 400px", alt="").m-auto.mt-lg-0
+
+        figure.mb-5
+          .video
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
+        .titulo-tres.mb-4(data-aos="flip-up").mb-4
+          h4 Sistemas alternos de producción ganadera
+
+        p(data-aos="fade-right").mb-5 La ganadería es una actividad económica de gran tamaño e importancia, y difícilmente detendrá su crecimiento. Además de ser la fuente de ingreso de muchas personas, es un atractivo para la inversión y constituye uno de los pilares del sector primario de la economía. 
+
+
+        .row.justify-content-center.align-items-center.mb-5
+          .col-lg-10
+            .bg-color-primario.brounded.p-4
+              .row.align-items-center
+                .col-lg-auto(data-aos="fade-right")
+                  img(src="@/assets/curso/tema1/4.svg", style="max-width: 85px", alt="").m-auto.mb-4.mb-lg-0
+                .col-lg(data-aos="fade-left")
+                  p.mb-0.text-white #[strong No puede negarse] que la ganadería extensiva ocasiona un fuerte impacto sobre el medio ambiente y contribuye al deterioro de las condiciones atmosféricas, como la calidad del aire y la estabilidad climática.
+
+            .row.justify-content-center.align-items-center.mb-5
+              .col-lg-8
+
 </template>
 
 <script>
