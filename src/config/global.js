@@ -132,31 +132,158 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Impacto económico y ambiental de la ganadería',
+      referencia:
+        'Caracol Radio. (2023). ¿Cómo reducir el impacto ambiental de la ganadería?. [Archivo de video] Youtube.',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=1TpGG15s9c0&ab_channel=RuralMercadeoResponsable',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Sistemas silvopastoriles',
+      referencia:
+        'FEDEGAN. (2022). Capítulo 21 - Sistemas Silvopastoriles - Generalidades -- #ManualPrácticoGanadero. [Archivo de video] Youtube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=Wp5qbTODkuQ&ab_channel=FEDEGAN',
+    },
+    {
+      tema: 'Cercas vivas',
+      referencia:
+        'La Finca de Hoy. (2022). Estos son los beneficios de las cercas vivas en las explotaciones bovinas - La Finca de Hoy. [Archivo de video] Youtube.',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=Y9wKIEmrGfY&ab_channel=LaFincadeHoy',
+    },
+    {
+      tema: 'Bancos de proteínas',
+      referencia:
+        'Tierrapastosyganado (2018). Bancos de Proteína como alternativa en la suplementación nutricional | Tierra Pastos y Ganado [Archivo de video] Youtube.',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=z7Nzq4VsQmI&ab_channel=tierrapastosyganado',
+    },
+    {
+      tema: 'Buenas Prácticas Ganaderas (BPG)',
+      referencia:
+        'Ecosistema de Recursos Educativos Digitales SENA. (2022). Características y simbología de las Buenas Prácticas Ganaderas. [Archivo de video] Youtube.',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=BHwq211HfWU&ab_channel=EcosistemadeRecursosEducativosDigitalesSENA',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Banco de proteínas',
+      significado:
+        'cultivos intensivos de leguminosas que se utilizan como suplemento alimenticio para el ganado, mejorando su dieta y el aporte de nutrientes.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Buenas Prácticas Ganaderas (BPG)',
+      significado:
+        'conjunto de normas y procedimientos que garantizan la producción de alimentos de origen animal de manera segura, eficiente y respetuosa con el medio ambiente.',
+    },
+    {
+      termino: 'Cercas vivas',
+      significado:
+        'barreras naturales formadas por hileras de árboles o arbustos, utilizadas para delimitar áreas dentro de las fincas, aportando además beneficios ecológicos.',
+    },
+    {
+      termino: 'Compactación de suelos',
+      significado:
+        'proceso en el cual el peso del ganado reduce la porosidad del suelo, impidiendo la adecuada circulación de agua y aire, lo que afecta la fertilidad del terreno.',
+    },
+    {
+      termino: 'Ganadería extensiva',
+      significado:
+        'sistema de producción ganadera que utiliza grandes extensiones de tierra, donde el ganado se cría en condiciones naturales, con bajo uso de insumos.',
+    },
+    {
+      termino: 'Gases de efecto invernadero',
+      significado:
+        'gases como el dióxido de carbono (CO₂) y el metano (CH₄), que atrapan el calor en la atmósfera, contribuyendo al calentamiento global y cambio climático.',
+    },
+    {
+      termino: 'Pastoreo en plantaciones',
+      significado:
+        'técnica en la que el ganado se cría dentro de plantaciones de árboles, aprovechando tanto la sombra como los recursos forrajeros que estos proporcionan.',
+    },
+    {
+      termino: 'Potrerización',
+      significado:
+        'proceso mediante el cual se transforman terrenos forestales o agrícolas en potreros para la cría de ganado, afectando la biodiversidad.',
+    },
+    {
+      termino: 'Reconversión agrícola',
+      significado:
+        'proceso de transformación de la producción agrícola o ganadera hacia modelos más sostenibles y productivos, mediante cambios en técnicas y manejos del terreno.',
+    },
+    {
+      termino: 'Sistemas silvopastoriles',
+      significado:
+        'modelos de producción que combinan árboles, arbustos, pastos y ganado en un mismo terreno, promoviendo la sostenibilidad y mayor productividad.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Alonso, J. (2011). Los sistemas silvopastoriles y su contribución al medio ambiente. Revista Cubana de Ciencia Agrícola, 45(2), 117-115.',
+      link: '',
+    },
+    {
+      referencia:
+        'Arguedas, R., Casasola, F., Ibrahim, M., & Villanueva, C. (2005). Las cercas vivas en las fincas ganaderas.',
+      link:
+        'http://www.produccion-animal.com.ar/informacion_tecnica/instalaciones/16-cercasvivas.pdf',
+    },
+    {
+      referencia:
+        'Arias A., R. (2007). Alternativas de producción ganadera. Guatemala: ICTA.',
+      link: '',
+    },
+    {
+      referencia:
+        'Centro Internacional de Agricultura Tropical (CIAT). (s.f.). Barreras rompevientos.',
+      link: '',
+    },
+    {
+      referencia:
+        'Gallego, J., Ojeda, P., Restrepo, J., & Villada, D. (2003). Sistemas silvopastoriles, una opción para el manejo sustentable de la ganadería. Santiago de Cali, Colombia: FIDAR.',
+      link: '',
+    },
+    {
+      referencia:
+        'Instituto Colombiano Agropecuario (ICA). (2007). Buenas prácticas ganaderas. Bogotá: ICA.',
+      link: '',
+    },
+    {
+      referencia:
+        'Instituto Colombiano Agropecuario (ICA). (s.f.). Buenas prácticas ganaderas en la producción de ganado bovino y bufalino destinado al sacrificio para el consumo humano.',
+      link:
+        'https://www.ica.gov.co/getattachment/35f0d70e-b2dd-4bfc-ac1f-ba169b5ccdca/Publicacion-5.aspx',
+    },
+    {
+      referencia:
+        'Ministerio de Agricultura y Ganadería de Costa Rica (MAG). (s.f.). Establecimiento de barreras rompevientos.',
+      link: 'http://www.mag.go.cr/bibliotecavirtual/AV-1326.pdf',
+    },
+    {
+      referencia:
+        'Murgueitio, E., Ochoa, L., Uribe, F., Valencia, L., & Zuluaga, A. (2011). Proyecto ganadería colombiana sostenible. Bogotá: FEDEGAN.',
+      link: '',
+    },
+    {
+      referencia:
+        'Navas, A. (2010). Importancia de los sistemas silvopastoriles en la reducción del estrés calórico en sistemas de producción ganadera tropical. Revista de Medicina Veterinaria, 19, 113-122.',
+      link: '',
+    },
+    {
+      referencia:
+        'Organización de las Naciones Unidas para la Alimentación y la Agricultura (FAO). (s.f.). Cercas vivas.',
+      link: '',
+    },
+    {
+      referencia:
+        'Secretaría de Agricultura, Ganadería, Desarrollo Rural, Pesca y Alimentación (SAGARPA). (s.f.). Sistemas silvopastoriles. Texcoco, México: SAGARPA.',
       link: '',
     },
   ],
@@ -180,8 +307,13 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Ángela Viviana Páez Perilla',
+          cargo: 'Experta temática',
+          centro: 'Centro Agroindustrial - Regional Quindío',
+        },
+        {
+          nombre: 'Paola Alexandra Moya',
+          cargo: 'Evaluadora instruccional',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -190,12 +322,12 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Carlos Julián Ramírez Benítez',
           cargo: 'Diseñador de contenidos',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Edgar Mauricio Cortés García',
           cargo: 'Desarrollador <i>full stack</i>',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
@@ -211,12 +343,12 @@ export default {
       autores: [
         {
           nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
+          cargo: 'Validador y vinculador de recursos educativos digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Jaime Hernán Tejada Llano',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
+          cargo: 'Validador y vinculador de recursos educativos digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
