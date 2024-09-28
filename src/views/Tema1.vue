@@ -57,8 +57,14 @@
                 .col-lg(data-aos="fade-left")
                   p.mb-0.text-white #[strong No puede negarse] que la ganadería extensiva ocasiona un fuerte impacto sobre el medio ambiente y contribuye al deterioro de las condiciones atmosféricas, como la calidad del aire y la estabilidad climática.
 
-            .row.justify-content-center.align-items-center.mb-5
-              .col-lg-8
+        .row.justify-content-center.align-items-center.mb-5
+          .col-lg-8
+            p(data-aos="fade-right") En respuesta a la necesidad de mantener la producción de carne y leche que abastece un enorme mercado a nivel global, y de mitigar el impacto negativo que dicha producción genera para el medio ambiente, han surgido diversas alternativas que proponen la integración de componentes silvestres y forestales con la crianza de ganado.  
+            .bg-color-2.p-4.brounded
+              p(data-aos="fade-left").mb-0 #[strong El objetivo es simple:] garantizar la producción minimizando tanto como sea posible el impacto ambiental. 
+          .col-lg-4(data-aos="fade-left")
+            img(src="@/assets/curso/tema1/5.png", style="max-width: 400px", alt="").m-auto.mt-lg-0
+
 
 </template>
 

@@ -35,6 +35,13 @@
 .banner-interno__fondo
   background-image: url("../assets/curso/portada/img1.png") !important
 
+// Shadows
+.shadow
+  &-soft
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 10px 15px rgba(0, 0, 0, 0.05)
+  &-top-left-right
+    box-shadow: -4px 0 6px -2px rgba(0, 0, 0, 0.1), 4px 0 6px -2px rgba(0, 0, 0, 0.1)
+
 .titulo-principal__numero span
   color: white !important
 
@@ -57,6 +64,19 @@
   &-primario
     background-color: $color-primario
     color: #fff
+  &-acento-contenido
+    background-color: $color-acento-contenido
+  &-2
+    background-color: #FFCAAD
+  &-3
+    background-color: #FDF4E5
+  &-4
+    background-color: #FBE9CC
+  &-5 
+    background-color: #B4C0B4
+  &-white
+    background-color: white !important
+
 
 .bg-fondo
   &-1
@@ -65,6 +85,12 @@
   &-2
     background-image: url("../assets/curso/bg/bg2.png") !important
     background-position: top
+  &-3
+    background-image: url("../assets/curso/bg/bg3.png") !important
+    background-position: top
+  &-4
+    background-image: url("../assets/curso/bg/bg-slider.png") !important
+
 
 
 // Title Styles
@@ -90,3 +116,92 @@
     height: 52px
     transform: translateX(12px)
     background: url('../assets/curso/bullets/icon1.svg') transparent no-repeat bottom left
+
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: $color-acento-botones
+  background-image: url(../assets/curso/bullets/arrow-white.svg)
+  color: white
+  opacity: 1
+
+.slyder-a__bullets__item
+  background-color: rgba($color-acento-contenido, 0.35)
+  border-color: rgba($color-acento-contenido, 0.35)
+
+.slyder-a__bullets__item--active
+  background-color: $color-acento-contenido !important
+
+
+// Slider Bullet Responsive Styles
+@media screen and (max-width: $bp-max-sm)
+  .slyder-a__bullets__item
+    margin: 0 3px
+
+// Timeline Styles
+.linea-tiempo-c__header__item__year
+  white-space: nowrap
+  overflow: hidden
+  text-overflow: ellipsis
+  width: 100%
+  @media screen and (max-width: $bp-max-md)
+    max-width: 70%
+
+// Estilos para botones de navegación y control
+.linea-tiempo-c__header__btn,
+.linea-tiempo-c__header__btn--left,
+.linea-tiempo-c__header__btn--right,
+.pasos-b__header__btn--left,
+.pasos-b__header__btn--right
+  background: $color-acento-botones
+  border: 0
+  color: #fff
+
+// Variables
+$custom-card-border-radius: 10px
+$custom-card-shadow: 0 4px 8px rgba(0,0,0,0.1)
+$custom-card-text-bg: #FFCAAD
+$custom-card-text-padding: 15px
+$custom-card-text-font-size: 14px
+$custom-card-img-height: 380px
+
+// Estilos
+.custom-image-card
+  border-radius: $custom-card-border-radius
+  overflow: hidden
+  box-shadow: $custom-card-shadow
+  height: 100%
+  background-color: $custom-card-text-bg
+
+  &__image
+    height: $custom-card-img-height
+    object-fit: cover
+
+
+// Media queries para responsividad
+@media (max-width: 768px)
+  .custom-image-card
+    margin-bottom: 20px
+
+
+// Custom List Styles
+.custom-list
+  list-style-type: none
+  padding-left: 0
+  
+  li
+    position: relative
+    padding-left: 1.4rem
+    
+    &::before
+      content: url('../assets/curso/bullets/icon2.svg')
+      position: absolute
+      left: 0
+      top: 2%
+      width: 13px
+      height: 13px
+
+.d-inline-block
+  display: inline-block !important
+
+.text-color-black
+  color: black !important
