@@ -227,7 +227,7 @@
       .col-md.tarjeta.bg-color-5.p-5
         .row.justify-content-center.align-items-end.mb-4
           .col-auto
-            img(src='@/assets/curso/tema2/21.svg', alt='')
+            img(src='@/assets/curso/tema2/22.svg', alt='')
           .col
             .bg-color-acento-contenido.p-3.d-inline-block
               h5.mb-0.text-color-black Beneficios ambientales 
@@ -239,6 +239,40 @@
           li.mb-2 Aumentan la presencia de diferentes especies animales. 
           li.mb-2 Embellecen el entorno de la finca. 
 
+
+    .titulo-tres.mb-4(data-aos="flip-up").mb-5
+      h4 Tipos de cercas vivas
+
+
+    p(data-aos="fade-right").mb-5 Las cercas vivas juegan un papel importante en la conservación ambiental y la mejora de la producción en fincas ganaderas. Estas se dividen en dos tipos principales: 
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-10
+
+        .bg-color-6.mb-5
+          .row.justify-content-center.align-items-center.mb-5
+            .col-lg-auto
+              img(src="@/assets/curso/tema2/23.png", style="max-width: 400px", alt="").m-auto.mt-lg-0
+            .col-lg 
+              .p-4
+                p #[strong Cercas vivas simples:]
+
+                ul.custom-list.mb-0
+                  li.mb-2 Compuestas por una sola especie de árbol, como mata ratón, guayabo común, ciruela de husito (Spondias spp.), o pachote (Pachira quinata). 
+                  li.mb-2 Los árboles se pueden podar cada dos años y son utilizados principalmente para delimitación y control de potreros. 
+
+        .bg-color-6.mb-5
+          .row.justify-content-center.align-items-center.mb-5
+            .col-lg-auto
+              img(src="@/assets/curso/tema2/24.png", style="max-width: 400px", alt="").m-auto.mt-lg-0
+            .col-lg 
+              .p-4
+                p #[strong Cercas vivas multiestratos:]
+
+                ul.custom-list.mb-0
+                  li.mb-2 Formadas por dos o tres especies diferentes, como árboles maderables, frutales, forrajeros, ornamentales o medicinales. 
+                  li.mb-2 Ofrecen mayor cobertura vegetal en menos tiempo y proporcionan un lugar seguro para la fauna silvestre, especialmente para la anidación de aves. 
+                  li.mb-2 Combinan árboles de diferentes alturas, lo que maximiza el uso del espacio y genera diversos productos para consumo y venta durante todo el año. 
     Separador
 </template>
 

@@ -5,7 +5,59 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
-      h1 Titulo de primer nivel
+      h1 Bancos de proteínas
+
+
+    p(data-aos="fade-right") Los bancos de proteínas son cultivos intensivos de diversas especies de leguminosas que sirven como alimento para el ganado. Son resistentes a las podas y tienen una gran capacidad de rebrote. El forraje obtenido en los bancos de proteínas se utiliza como suplemento en la dieta del ganado alimentado con pasto. 
+
+    p(data-aos="fade-right")  #[strong Existen tres tipos de bancos de proteínas:]
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-3
+        img(src="@/assets/curso/tema3/1.png", style="max-width: 293px", alt="").m-auto
+
+      .col-lg-9
+        AcordionA(tipo="a" clase-tarjeta="tarjeta bg-color-1")
+          .row(titulo="Especies forrajeras arbóreas que se siembran solas")
+            .col-md-6.mb-4.mb-md-0
+              p Se cultivan a altas densidades y requieren podas manuales para su mantenimiento. 
+            .col-md-6
+              img(src='@/assets/curso/tema3/2.png', alt='', style='max-width: 226px').m-auto
+
+          .row(titulo="Forrajeras arbóreas asociadas ")
+            .col-md-6.mb-4.mb-md-0
+              p Son especies de mayor tamaño, sembradas en cultivos o pastizales. Dificultan el consumo directo por el ganado, por lo que el material comestible debe ser transportado manualmente. 
+            .col-md-6
+              img(src='@/assets/curso/tema3/3.png', alt='', style='max-width: 226px').m-auto
+
+          .row(titulo="Especies forrajeras arbóreas sembradas en bordes o franjas")
+            .col-md-6.mb-4.mb-md-0
+              p Se siembran junto con pasto o caña y se propagan por medios sexuales o asexuales. 
+            .col-md-6
+              img(src='@/assets/curso/tema3/4.png', alt='', style='max-width: 226px').m-auto
+
+    p(data-aos="fade-right").mb-5 #[strong Las características de las especies arbóreas utilizadas en los bancos de proteínas son:]
+
+    .row
+      .col-lg-4.mb-4
+        .custom-image-card
+          img.custom-image-card__image(src="@/assets/curso/tema3/5.png" alt="")
+          .custom-image-card__text.p-4
+            p #[strong Arco nacedero]
+            p.mb-0 Esta especie tiene un alto valor nutricional y buena digestibilidad.
+      .col-lg-4.mb-4
+        .custom-image-card
+          img.custom-image-card__image(src="@/assets/curso/tema3/6.png" alt="")
+          .custom-image-card__text.p-4
+            p #[strong Matarratón]
+            p.mb-0 Es una especie que tolera suelos pobres y se desarrolla en altitudes de entre 0 y 1,500 metros sobre el nivel del mar.
+      .col-lg-4.mb-4
+        .custom-image-card
+          img.custom-image-card__image(src="@/assets/curso/tema3/7.png" alt="")
+          .custom-image-card__text.p-4
+            p #[strong Leucaena]
+            p.mb-0 Esta leguminosa es rica en betacarotenos y fósforo. Ha sido ampliamente estudiada en los trópicos debido a sus propiedades antioxidantes.
+    Separador
 
 </template>
 

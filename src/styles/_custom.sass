@@ -48,6 +48,8 @@
 .brounded
   border-radius: 15px
 
+.brounded-xs
+  border-radius: 7px
 // Full Width Background
 .bg-full-width
   background-size: cover
@@ -74,6 +76,15 @@
     background-color: #FBE9CC
   &-5 
     background-color: #B4C0B4
+  &-6
+    background-color: #EDF0ED
+  &-7
+    background-color: #FFF2EB
+  &-acento-botones
+    background-color: $color-acento-botones
+    color: white
+  &-secundario
+    background-color: $color-secundario
   &-white
     background-color: white !important
 
@@ -90,6 +101,11 @@
     background-position: top
   &-4
     background-image: url("../assets/curso/bg/bg-slider.png") !important
+  &-5
+    background-image: url("../assets/curso/bg/bg5.png") !important
+  &-6
+    background-image: url("../assets/curso/bg/bg6.png") !important
+    background-position: top
 
 
 
@@ -205,3 +221,47 @@ $custom-card-img-height: 380px
 
 .text-color-black
   color: black !important
+
+.acordion__accion__btn--a
+  background: $color-acento-botones
+  border: 0
+  color: #fff
+
+// Accordion Styles
+.acordion__activo
+  background: #FBE9CC
+
+// Carousel Styles
+.carousel-bg .fas
+  &.fa-chevron-left, &.fa-chevron-right
+    display: inline-flex
+    align-items: center
+    justify-content: center
+    width: 40px
+    height: 40px
+    background-color: $color-acento-botones
+    border-radius: 50%
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
+    color: #fff
+    font-size: 16px
+
+
+// Slider Responsive Styles
+@media screen and (max-width: $bp-max-sm)
+  .slyder-f
+    &__main
+      width: 76%
+    &__btn
+      width: 12%
+
+@media screen and (max-width: $bp-max-xs)
+  .slyder-f
+    &__main
+      width: 60%
+    &__btn
+      width: 20%
+
+.text-color-black
+  color: black !important
+  strong 
+    color: black !important
