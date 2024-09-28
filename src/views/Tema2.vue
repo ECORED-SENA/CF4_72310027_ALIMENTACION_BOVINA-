@@ -273,6 +273,10 @@
                   li.mb-2 Formadas por dos o tres especies diferentes, como árboles maderables, frutales, forrajeros, ornamentales o medicinales. 
                   li.mb-2 Ofrecen mayor cobertura vegetal en menos tiempo y proporcionan un lugar seguro para la fauna silvestre, especialmente para la anidación de aves. 
                   li.mb-2 Combinan árboles de diferentes alturas, lo que maximiza el uso del espacio y genera diversos productos para consumo y venta durante todo el año. 
+
+
+
+
     Separador
 </template>
 
