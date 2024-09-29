@@ -97,7 +97,7 @@
 
     Separador
 
-    .titulo-segundo.color-secundario(data-aos='fade-right')
+    .titulo-segundo.color-secundario(data-aos='fade-right')#t_2_1
       h2 2.1 Arreglos silvopastoriles 
 
     p La disposición de árboles y arbustos en terrenos ganaderos, conocida como arreglo silvopastoril, puede variar según los objetivos del productor, desde la mejora del suelo hasta el aumento de la productividad ganadera. 
@@ -154,7 +154,7 @@
 
     Separador
 
-    .titulo-segundo.color-secundario(data-aos='fade-right')
+    .titulo-segundo.color-secundario(data-aos='fade-right')#t_2_2
       h2 2.2 Pastoreo en plantaciones 
 
     p(data-aos="fade-left").mb-5 Este modelo combina plantaciones de árboles con la actividad ganadera. Consiste en criar ganado dentro de una plantación, la cual también cuenta con los elementos propios de un potrero, como pastos y plantas herbáceas. Este arreglo silvoforestal es económicamente conveniente, ya que integra dos actividades productivas en un mismo terreno, reduciendo significativamente los costos operativos. 
@@ -189,7 +189,7 @@
 
     Separador
 
-    .titulo-segundo.color-secundario(data-aos='fade-right')
+    .titulo-segundo.color-secundario(data-aos='fade-right')#t_2_3
       h2 2.3 Cercas vivas
 
     .row.justify-content-center.align-items-center.mb-5
@@ -314,7 +314,7 @@
                   
     Separador
 
-    .titulo-segundo.color-secundario(data-aos='fade-right')
+    .titulo-segundo.color-secundario(data-aos='fade-right')#t_2_4
       h2 2.4 Barreras rompevientos
 
     .bg-full-width.bg-fondo-10
@@ -402,7 +402,7 @@
 
     Separador
 
-    .titulo-segundo.color-secundario(data-aos='fade-right')
+    .titulo-segundo.color-secundario(data-aos='fade-right')#t_2_5
       h2 2.5 Barreras vivas 
 
     p(data-aos="fade-right").mb-4 Las barreras vivas son cultivos sembrados en laderas para evitar la erosión. Esta técnica ayuda a conservar el suelo y el agua. Para que actúen como barreras, las plantas deben sembrarse de manera tupida en los surcos. 
