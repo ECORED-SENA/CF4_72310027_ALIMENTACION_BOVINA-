@@ -10,15 +10,16 @@
     
     p La ganadería, como uno de los pilares fundamentales del sector agropecuario, tiene un impacto considerable en la economía y el medio ambiente. Desde el punto de vista económico, contribuye significativamente al producto interno bruto (PIB) y es una fuente crucial de empleo e ingresos para muchas familias rurales.  
 
-    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-4
-      .bloque-texto-g__img(
-        :style="{'background-image':`url(${require('@/assets/curso/tema1/1.png')})`}"
-      )
-      .bloque-texto-g__texto.p-4
-        p.mb-0 En respuesta a estos desafíos, han surgido alternativas de producción ganadera que buscan mitigar los efectos negativos sobre el medio ambiente, sin comprometer la productividad. Entre estas alternativas destacan los sistemas silvopastoriles, que integran árboles y arbustos con el pastoreo, y las cercas vivas, que además de dividir áreas dentro de las fincas, ofrecen beneficios ambientales y económicos.
-
     .bg-full-width.bg-fondo-2
       .px-4.px-md-5.pb-5
+        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
+          .bloque-texto-g__img(
+            :style="{'background-image':`url(${require('@/assets/curso/tema1/1.png')})`}"
+          )
+          .bloque-texto-g__texto.p-4
+            p.mb-0 En respuesta a estos desafíos, han surgido alternativas de producción ganadera que buscan mitigar los efectos negativos sobre el medio ambiente, sin comprometer la productividad. Entre estas alternativas destacan los sistemas silvopastoriles, que integran árboles y arbustos con el pastoreo, y las cercas vivas, que además de dividir áreas dentro de las fincas, ofrecen beneficios ambientales y económicos.
+
+
         .titulo-tres.mb-4(data-aos="flip-up").mb-4
           h4 Perspectiva económica 
 
@@ -62,8 +63,9 @@
             p(data-aos="fade-right") En respuesta a la necesidad de mantener la producción de carne y leche que abastece un enorme mercado a nivel global, y de mitigar el impacto negativo que dicha producción genera para el medio ambiente, han surgido diversas alternativas que proponen la integración de componentes silvestres y forestales con la crianza de ganado.  
             .bg-color-2.p-4.brounded-xs
               p(data-aos="fade-left").mb-0 #[strong El objetivo es simple:] garantizar la producción minimizando tanto como sea posible el impacto ambiental. 
+              img(src="@/assets/curso/tema1/5.png", style="max-width: 400px", alt="").m-auto.mt-lg-0.mt-4.d-lg-none
           .col-lg-4(data-aos="fade-left")
-            img(src="@/assets/curso/tema1/5.png", style="max-width: 400px", alt="").m-auto.mt-lg-0
+            img(src="@/assets/curso/tema1/5.png", style="max-width: 400px", alt="").m-auto.mt-lg-0.d-none.d-lg-block
 
 
 </template>

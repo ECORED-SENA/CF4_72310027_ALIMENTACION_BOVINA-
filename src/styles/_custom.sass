@@ -50,6 +50,20 @@
 
 .brounded-xs
   border-radius: 7px
+
+.brounded-left-md
+  @media screen and (max-width: $bp-min-md)
+    border-top-left-radius: 15px
+    border-bottom-left-radius: 15px
+
+.brounded-right
+  border-top-right-radius: 15px
+  border-bottom-right-radius: 15px
+
+.brounded-md
+  @media screen and (max-width: $bp-min-md)
+    border-radius: 15px !important
+
 // Full Width Background
 .bg-full-width
   background-size: cover
@@ -80,6 +94,8 @@
     background-color: #EDF0ED
   &-7
     background-color: #FFF2EB
+  &-8 
+    background-color: #994B1E
   &-acento-botones
     background-color: $color-acento-botones
     color: white
@@ -110,7 +126,13 @@
     background-image: url("../assets/curso/bg/bg7.png") !important
     background-position: top
   &-8
-    background-image: url("../assets/curso/bg/bg7.png") !important
+    background-image: url("../assets/curso/bg/bg8.png") !important
+    background-position: top
+  &-9
+    background-image: url("../assets/curso/bg/bg9.png") !important
+    background-position: top
+  &-10
+    background-image: url("../assets/curso/bg/bg10.png") !important
     background-position: top
 
 
@@ -164,8 +186,8 @@
   white-space: nowrap
   overflow: hidden
   text-overflow: ellipsis
-  width: 100%
-  @media screen and (max-width: $bp-max-md)
+  width: 90%
+  @media screen and (max-width: $bp-max-xl)
     max-width: 70%
 
 // Estilos para botones de navegación y control
@@ -193,11 +215,28 @@ $custom-card-img-height: 380px
   box-shadow: $custom-card-shadow
   height: 100%
   background-color: $custom-card-text-bg
-
+  transition: transform 0.3s ease /* Duración y suavidad del efecto */
+  cursor: pointer
+  &:hover
+    transform: scale(1.05)
   &__image
     height: $custom-card-img-height
     object-fit: cover
 
+.custom-image-card-2
+  overflow: hidden
+  box-shadow: $custom-card-shadow
+  height: 100%
+  min-width: 190px
+  transition: transform 0.3s ease /* Duración y suavidad del efecto */
+  cursor: pointer
+  &:hover
+    transform: scale(1.05)
+
+  &__image
+    height: 190px
+    width: 190px
+    object-fit: cover
 
 // Media queries para responsividad
 @media (max-width: 768px)
@@ -222,6 +261,22 @@ $custom-card-img-height: 380px
       width: 13px
       height: 13px
 
+.custom-list-2
+  list-style-type: none
+  padding-left: 0
+  
+  li
+    position: relative
+    padding-left: 1.4rem
+    
+    &::before
+      content: url('../assets/curso/bullets/icon3.svg')
+      position: absolute
+      left: 0
+      top: 2%
+      width: 13px
+      height: 13px
+
 .d-inline-block
   display: inline-block !important
 
@@ -235,7 +290,7 @@ $custom-card-img-height: 380px
 
 // Accordion Styles
 .acordion__activo
-  background: #FBE9CC
+  background: #FBE9CC !important
 
 // Carousel Styles
 .carousel-bg .fas
@@ -271,3 +326,11 @@ $custom-card-img-height: 380px
   color: black !important
   strong 
     color: black !important
+
+.tarjeta--boton.bg-color-1:hover
+  background-color: #FBE9CC !important
+
+.tarjeta-avatar
+  padding-top: 35px
+  .tarjeta
+    padding-top: 35px !important

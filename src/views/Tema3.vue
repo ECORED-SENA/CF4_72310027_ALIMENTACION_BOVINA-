@@ -13,10 +13,10 @@
     p(data-aos="fade-right")  #[strong Existen tres tipos de bancos de proteínas:]
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-3
-        img(src="@/assets/curso/tema3/1.png", style="max-width: 293px", alt="").m-auto
+      .col-lg-3(data-aos="fade-right")
+        img(src="@/assets/curso/tema3/1.png", style="max-width: 293px", alt="").m-auto.d-none.d-lg-block
 
-      .col-lg-9
+      .col-lg-9(data-aos="fade-right")
         AcordionA(tipo="a" clase-tarjeta="tarjeta bg-color-1")
           .row(titulo="Especies forrajeras arbóreas que se siembran solas")
             .col-md-6.mb-4.mb-md-0
@@ -43,18 +43,18 @@
       .px-4.px-md-5.pb-5
         .row.mb-5
           .col-lg-4.mb-4
-            .custom-image-card
+            .custom-image-card(data-aos="zoom-in-up")
               img.custom-image-card__image(src="@/assets/curso/tema3/5.png" alt="")
               .custom-image-card__text.p-4
                 p.mb-0 #[strong Arco nacedero]
                 p.mb-0 Esta especie tiene un alto valor nutricional y buena digestibilidad.
-          .col-lg-4.mb-4
+          .col-lg-4.mb-4(data-aos="zoom-in-down")
             .custom-image-card
               img.custom-image-card__image(src="@/assets/curso/tema3/6.png" alt="")
               .custom-image-card__text.p-4
                 p.mb-0 #[strong Matarratón]
                 p.mb-0 Es una especie que tolera suelos pobres y se desarrolla en altitudes de entre 0 y 1,500 metros sobre el nivel del mar.
-          .col-lg-4.mb-4
+          .col-lg-4.mb-4(data-aos="zoom-in-right")
             .custom-image-card
               img.custom-image-card__image(src="@/assets/curso/tema3/7.png" alt="")
               .custom-image-card__text.p-4
@@ -66,32 +66,32 @@
           h4 La reconversión agrícola y pecuaria 
 
         .row.justify-content-center.align-items-center.mb-5
-          .col-lg-8(data-aos="fade-right")
+          .col-lg-8(data-aos="fade-right").order-lg-1.order-2
             .bg-color-1.p-4
               p Este proceso se realiza durante un tiempo determinado en el que el sistema agrario o ganadero necesita mejorar la producción de un cultivo o restablecer la fertilidad del predio y la unidad productiva. 
-          .col-lg-4(data-aos="fade-left")
-            img(src="@/assets/curso/tema3/8.png", style="max-width: 400px", alt="").m-auto.mt-lg-0
+          .col-lg-4(data-aos="fade-left").order-lg-2.order-1
+            img(src="@/assets/curso/tema3/8.png", style="max-width: 400px", alt="").m-auto.mb-lg-0.mb-4
       
 
         .titulo-tres.mb-4(data-aos="flip-up").mb-4
           h4 Plan de reconversión 
 
         .row.justify-content-center.align-items-center.mb-5
-          .col-lg-8(data-aos="fade-right")
+          .col-lg-8(data-aos="fade-right").order-lg-1.order-2
             .bg-color-1.p-4
               p Este proceso requiere una buena planificación, en la que se involucren tanto los recursos naturales como los humanos. Lo primero que debe hacerse es elaborar un plan de reconversión en el que se analice la situación. En este documento deben quedar estipulados los cambios y estrategias a utilizar para mejorar el cultivo. 
-          .col-lg-4(data-aos="fade-left")
-            img(src="@/assets/curso/tema3/9.png", style="max-width: 400px", alt="").m-auto.mt-lg-0
+          .col-lg-4(data-aos="fade-left").order-lg-2.order-1
+            img(src="@/assets/curso/tema3/9.png", style="max-width: 400px", alt="").m-auto.mb-lg-0.mb-4
 
         .titulo-tres.mb-4(data-aos="flip-up").mb-4
           h4 Historial de la finca o situación de partida
 
         .row.justify-content-center.align-items-center
-          .col-lg-8(data-aos="fade-right")
+          .col-lg-8(data-aos="fade-right").order-lg-1.order-2
             .bg-color-1.p-4
               p Este es el primer paso para realizar un plan de conversión ecológica. Deben tenerse en cuenta algunos aspectos que deben ser contemplados en el análisis inicial, como se presenta  en la siguiente figura: 
-          .col-lg-4(data-aos="fade-left")
-            img(src="@/assets/curso/tema3/10.png", style="max-width: 400px", alt="").m-auto.mt-lg-0
+          .col-lg-4(data-aos="fade-left").order-lg-2.order-1
+            img(src="@/assets/curso/tema3/10.png", style="max-width: 400px", alt="").m-auto.mb-lg-0.mb-4
 
 
     .titulo-sexto.color-acento-contenido(data-aos="flip-up").mb-5
@@ -99,8 +99,8 @@
       span Aspectos de la finca 
 
     .row.justify-content-center.align-items-center.mb-5.pb-4
-      .col-lg-10.col-xl-8
-        img(src="@/assets/curso/figuras/3.svg", style="max-width: 990px", alt="").m-auto
+      .col-lg-10.col-xl-8(data-aos="zoom-in-up")
+        img(src="@/assets/curso/figuras/3.svg", style="max-width: 990px", alt=" La imagen figura un ciclo de factores clave en la producción agropecuaria, donde se incluyen aspectos como el tipo de suelo, factores climáticos, disponibilidad y calidad del agua de riego, biodiversidad de la flora y fauna, ganado, mano de obra, instalaciones y maquinaria, infraestructura, y fuentes de financiación. Estos elementos están interconectados y juegan un papel fundamental en el éxito de las actividades agropecuarias.").m-auto
 
     .bg-full-width.bg-fondo-7
       .px-4.px-md-5.pb-5
@@ -114,7 +114,7 @@
             .bg-color-6(data-aos="fade-right")
               .row.justify-content-center.align-items-center
                 .col-lg-auto
-                  img(src="@/assets/curso/tema3/11.png", style="max-width: 400px", alt="").m-auto.mt-lg-0
+                  img(src="@/assets/curso/tema3/11.png", style="max-width: 400px", alt="").m-auto.mt-lg-0.mt-4
                 .col-lg 
                   .p-4
                     ul.custom-list.mb-0
@@ -127,7 +127,7 @@
         p(data-aos="fade-right").mb-5 #[strong La reconversión de una finca puede realizarse de diferentes maneras:] 
 
         .row.mb-5
-          .col-lg-4.mb-4(data-aos="fade-right")
+          .col-lg-4.mb-4(data-aos="zoom-in-up")
             .custom-image-card.bg-color-1
               img.custom-image-card__image(src="@/assets/curso/tema3/12.png" alt="")
               .custom-image-card__text.p-4
@@ -139,12 +139,13 @@
               .custom-image-card__text.p-4
                 p.mb-0 #[strong Conversión gradual u horizontal]
                 p.mb-0 Se empieza en una parte de la finca y se va aumentando la superficie conforme se adquiere experiencia. 
-          .col-lg-4.mb-4(data-aos="fade-left")
+          .col-lg-4.mb-4(data-aos="zoom-in-left")
             .custom-image-card.bg-color-1
               img.custom-image-card__image(src="@/assets/curso/tema3/14.png" alt="")
               .custom-image-card__text.p-4
                 p.mb-0 #[strong Conversión vertical]                
                 p.mb-0 Incorpora técnicas de reconversión de manera gradual, reduciendo el uso de agroquímicos y aplicando modelos ecológicos de producción. 
+
 
 
 </template>

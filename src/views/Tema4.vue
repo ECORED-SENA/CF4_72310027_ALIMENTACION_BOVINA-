@@ -9,11 +9,12 @@
   
 
       .row.justify-content-center.align-items-center.mb-5
-        .col-lg-8
-          .bg-color-3.brounded.p-4.py-lg-5.px-lg-4(data-aos="fade-right")
+        .col-lg-8(data-aos="fade-right")
+          .bg-color-3.brounded.p-4.py-lg-5.px-lg-4
+            img(src="@/assets/curso/tema4/1.png", style="max-width: 400px", alt="").m-auto.mb-lg-0.mb-4.d-lg-none
             p.mb-0 Las Buenas Prácticas Ganaderas son normas elaboradas para garantizar la inocuidad en la producción de alimentos de origen animal y el bienestar animal. Se aplican principalmente en la producción del sector primario. 
         .col-lg-4(data-aos="fade-left")
-          img(src="@/assets/curso/tema4/1.png", style="max-width: 400px", alt="").m-auto.mt-lg-0
+          img(src="@/assets/curso/tema4/1.png", style="max-width: 400px", alt="").m-auto.mt-lg-0.d-none.d-lg-block
 
 
   
@@ -35,25 +36,25 @@
                       h6.text-center.mb-0.text-color-black #[strong Registro en el ICA] 
                     p.text-center.text-small.lh-sm Todos los alimentos, suplementos, sales mineralizadas, plaguicidas, fertilizantes e insumos agrícolas deben tener registro en el ICA. 
 
-                  .tarjeta.color-primario.p-4.shadow-top-left-right
+                  .tarjeta.color-primario.p-4.shadow-top-left-right.text-center
                     img(src='@/assets/curso/tema4/3.svg', style="max-width: 89px", alt='').mx-auto.mb-4
                     .bg-color-secundario.d-inline-block.px-2.py-1.mb-3
                         h6.text-center.mb-0.text-color-black Prohibición de harinas de origen animal 
                     p.text-center.text-small.lh-sm No se permite usar suplementos que contengan harinas de carne, sangre, hueso o despojos de mamíferos. 
                   
-                  .tarjeta.color-primario.p-4.shadow-top-left-right
+                  .tarjeta.color-primario.p-4.shadow-top-left-right.text-center
                     img(src='@/assets/curso/tema4/4.svg', style="max-width: 89px", alt='').mx-auto.mb-4
                     .bg-color-secundario.d-inline-block.px-2.py-1.mb-3
                       h6.text-center.mb-0.text-color-black Control de subproductos contaminados 
                     p.text-center.text-small.lh-sm No se deben utilizar subproductos de cosechas contaminados con plaguicidas, y debe registrarse el origen de todos los productos empleados en la alimentación. 
 
-                  .tarjeta.color-primario.p-4.shadow-top-left-right
+                  .tarjeta.color-primario.p-4.shadow-top-left-right.text-center
                     img(src='@/assets/curso/tema4/5.svg', style="max-width: 89px", alt='').mx-auto.mb-4
                     .bg-color-secundario.d-inline-block.px-2.py-1.mb-3
                       h6.text-center.mb-0.text-color-black #[strong Respeto al período de carencia de plaguicidas] 
                     p.text-center.text-small.lh-sm Si se aplican plaguicidas a forrajes o cultivos destinados a la alimentación animal, debe respetarse el período de carencia del producto. 
 
-                  .tarjeta.color-primario.p-4.shadow-top-left-right
+                  .tarjeta.color-primario.p-4.shadow-top-left-right.text-center
                     img(src='@/assets/curso/tema4/6.svg', style="max-width: 89px", alt='').mx-auto.mb-4
                     .bg-color-secundario.d-inline-block.px-2.py-1.mb-3
                       h6.text-center.mb-0.text-color-black Uso de materiales transgénicos 
@@ -61,32 +62,32 @@
               
       .bg-full-width.bg-fondo-6
         .px-4.px-md-5.pb-5
-          .bg-color-secundario.brounded.px-3.py-2.d-inline-block.mb-5
+          .bg-color-secundario.brounded.px-3.py-2.d-inline-block.mb-5(data-aos="flip-up")
             h5.mb-0 Suministro de agua:
 
           .row.justify-content-center.align-items-center.mb-5
             .col-lg-10
-              .bg-color-6.mb-5
-                .row.justify-content-center.align-items-center.mb-5
-                  .col-lg-auto
-                    img(src="@/assets/curso/tema4/8.png", style="max-width: 400px", alt="").m-auto.mt-lg-0
-                  .col-lg 
+              .bg-color-6
+                .row.justify-content-center.align-items-center
+                  .col-lg-auto(data-aos="fade-right")
+                    img(src="@/assets/curso/tema4/8.png", style="max-width: 400px", alt="").m-auto.mt-lg-0.mt-4
+                  .col-lg(data-aos="fade-right")
                     .p-4
                       ul.custom-list.mb-0
                         li.mb-4 El suministro de agua para los animales debe ser permanente, sin restricciones y en condiciones higiénicas. 
                         li.mb-4 El agua utilizada en la alimentación del ganado debe tener una calidad que no afecte la inocuidad de los productos obtenidos de los animales. 
                         li.mb-4 Los sitios de obtención y almacenamiento de agua deben estar protegidos de la contaminación. 
 
-          .bg-color-secundario.brounded.px-3.py-2.d-inline-block.mb-5
+          .bg-color-secundario.brounded.px-3.py-2.d-inline-block.mb-5(data-aos="flip-up")
             h5.mb-0 Almacenamiento de alimentos: 
 
-          .row.justify-content-center.align-items-center.mb-5
+          .row.justify-content-center.align-items-center
             .col-lg-10
-              .bg-color-6.mb-5
-                .row.justify-content-center.align-items-center.mb-5
-                  .col-lg-auto
-                    img(src="@/assets/curso/tema4/8.png", style="max-width: 400px", alt="").m-auto.mt-lg-0
-                  .col-lg 
+              .bg-color-6
+                .row.justify-content-center.align-items-center
+                  .col-lg-auto(data-aos="fade-right")
+                    img(src="@/assets/curso/tema4/9.png", style="max-width: 400px", alt="").m-auto.mt-lg-0.mt-4
+                  .col-lg(data-aos="fade-right")
                     .p-4
                       ul.custom-list.mb-0
                         li.mb-4 Los alimentos deben almacenarse en bodegas destinadas exclusivamente a este fin, las cuales deben mantenerse cerradas para impedir el ingreso de plagas y animales.
@@ -102,9 +103,10 @@
         .col-lg-8
           p(data-aos="fade-right") Las BPG se aplican en la producción pecuaria con el fin de que las empresas ganaderas alcancen la sostenibilidad ambiental, económica y social. Estas prácticas buscan garantizar la obtención de productos sanos, seguros para el consumo y de buena calidad. 
           .bg-color-7.p-4.brounded-xs
+            img(src="@/assets/curso/tema4/10.png", style="max-width: 400px", alt="").m-auto.mb-lg-0.mb-4.d-lg-none
             p(data-aos="fade-left").mb-0 La implementación de estas normas, especialmente en la producción de carne y leche, puede generar una gran variedad de beneficios. Sin embargo, su aplicación no es sencilla y requiere mucho esfuerzo y dedicación por parte de las personas involucradas en la finca ganadera. Los beneficios de aplicar estas normas en el ámbito productivo son los siguientes: 
         .col-lg-4(data-aos="fade-left")
-          img(src="@/assets/curso/tema4/10.png", style="max-width: 400px", alt="").m-auto.mt-lg-0
+          img(src="@/assets/curso/tema4/10.png", style="max-width: 400px", alt="").m-auto.mt-lg-0.d-none.d-lg-block
           
 
       .row.justify-content-center.my-5
