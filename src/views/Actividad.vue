@@ -15,7 +15,7 @@ export default {
   components: { Actividad },
   data: () => ({
     cuestionario: {
-      tema: 'Nombre del componente formativo',
+      tema: 'Alimentación bovina',
       titulo: 'Cuestionario: Impacto económico y ambiental de la ganadería',
       introduccion:
         '<b> Objetivo:</b> Analizar el impacto económico y ambiental de la ganadería, identificando prácticas sostenibles como los sistemas silvopastoriles, las cercas vivas y los bancos de proteínas. Lea cada enunciado y luego seleccione la respuesta correcta según corresponda.',
