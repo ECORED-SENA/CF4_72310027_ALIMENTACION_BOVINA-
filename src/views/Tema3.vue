@@ -122,7 +122,7 @@
                       li.mb-2 Diseñar un plan de manejo de rotación de cultivos.
                       li.mb-2 Ajustar la ganadería.
                       li.mb-2 Mejorar la biodiversidad, si es pobre, se deben sembrar especies.
-                      li.mb-0 La infraestructura se debe adaptar
+                      li.mb-0 La infraestructura se debe adaptar.
 
         p(data-aos="fade-right").mb-5 #[strong La reconversión de una finca puede realizarse de diferentes maneras:] 
 

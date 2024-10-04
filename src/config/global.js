@@ -151,16 +151,14 @@ export default {
       referencia:
         'La Finca de Hoy. (2022). Estos son los beneficios de las cercas vivas en las explotaciones bovinas - La Finca de Hoy. [Archivo de video] Youtube.',
       tipo: 'Video',
-      link:
-        'https://www.youtube.com/watch?v=Y9wKIEmrGfY&ab_channel=LaFincadeHoy',
+      link: 'https://www.youtube.com/watch?v=Y9wKlEmrGfY',
     },
     {
       tema: 'Bancos de proteínas',
       referencia:
         'Tierrapastosyganado (2018). Bancos de Proteína como alternativa en la suplementación nutricional | Tierra Pastos y Ganado [Archivo de video] Youtube.',
       tipo: 'Video',
-      link:
-        'https://www.youtube.com/watch?v=z7Nzq4VsQmI&ab_channel=tierrapastosyganado',
+      link: 'https://www.youtube.com/watch?v=z7Nzg4VsQmI',
     },
     {
       tema: 'Buenas Prácticas Ganaderas (BPG)',

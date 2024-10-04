@@ -7,7 +7,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/sintesis.svg", alt="La síntesis sobre la productividad ganadera. Expone los sistemas alternos para la producción de ganado bovino, que buscan una relación eficiente entre la actividad ganadera y el terreno, así como favorecer el impacto económico y ambiental. También menciona los planes de reconversión, que incluyen la actualización del proceso, manejo del suelo, mejor infraestructura y biodiversidad de especies forrajeras. Finalmente, detalla las buenas prácticas ganaderas, enfocadas en mejorar la dosificación y almacenamiento de alimentos y favorecer la productividad en sectores como carne y leche.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

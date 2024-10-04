@@ -23,7 +23,7 @@
 
     .titulo-sexto.color-acento-contenido.mb-4(data-aos="flip-up")
       h5 Figura 1. 
-      span Factos sistema silvopastoril 
+      span Factores del sistema silvopastoril
 
     .bg-full-width.bg-fondo-2
       .px-4.px-md-5.pb-5
@@ -88,12 +88,14 @@
               .col-lg-4
                 img(src='@/assets/curso/tema2/8.png', style="max-width: 419px").mx-auto
 
+
     p(data-aos="fade-left").mb-5 Se invita a revisar el video completo para obtener información detallada sobre cómo los sistemas silvopastoriles pueden ofrecer una solución efectiva frente a los desafíos ambientales ocasionados por la ganadería tradicional. 
 
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/4MWi-eQbmmU?si=V96k_9bU4vcAi0Mj" title="Planificación de un sistema silvopastoril" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video: Planificación de un sistema silvopastoril
+
 
     Separador
 
@@ -259,7 +261,7 @@
                 p #[strong Cercas vivas simples:]
 
                 ul.custom-list.mb-0
-                  li.mb-2 Compuestas por una sola especie de árbol, como mata ratón, guayabo común, ciruela de husito (Spondias spp.), o pachote (Pachira quinata). 
+                  li.mb-2 Compuestas por una sola especie de árbol, como matarratón, guayabo común, ciruela de husito (Spondias spp.), o pachote (Pachira quinata). 
                   li.mb-2 Los árboles se pueden podar cada dos años y son utilizados principalmente para delimitación y control de potreros. 
 
         .bg-color-6.mb-5
@@ -319,7 +321,7 @@
 
     .bg-full-width.bg-fondo-10
       .px-4.px-md-5.pb-4
-        p(data-aos="fade-left").mb-5 Las barreras rompevientos son estructuras vegetales que se utilizan para proteger los cultivos y los animales de los vientos fuertes. Estas barreras pueden ser de diferentes tipos, como hileras de árboles, arbustos o mallas.
+        p(data-aos="fade-left").mb-5 Las barreras rompevientos consisten en hileras de árboles o arbustos distribuidos según su altura máxima, ubicados en contraposición a la dirección del viento. Estas forman una barrera que cumple la función de disminuir la velocidad con la que el viento impacta las zonas de cultivo o pastoreo, evitando que se dañen las plantas y que el suelo sufra erosión eólica.
 
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-8
@@ -366,7 +368,7 @@
                     li.mb-2 Mejoran la humedad del suelo.
                     li.mb-2 Protegen la calidad de las cosechas.
                     li.mb-2 Ayudan a establecer límites entre predios.
-                    li.mb-2 Favorecen la diversidad biológica animal y vegetal.
+                    li.mb-2 Favorecen la diversidad biológica, animal y vegetal.
 
         p(data-aos="fade-left").mb-5 #[strong Entre las especies utilizadas como barreras rompevientos están:]
 
@@ -381,7 +383,7 @@
               .custom-image-card-2.d-flex.flex-column.me-4(data-aos="flip-down").mb-4
                 img.custom-image-card-2__image(src="@/assets/curso/tema2/37.png" alt="")
                 .bg-color-8.px-4.py-2
-                  h6.mb-0.text-center.text-white Mataratón
+                  h6.mb-0.text-center.text-white Matarratón
 
 
               .custom-image-card-2.d-flex.flex-column.me-4(data-aos="flip-left").mb-4
