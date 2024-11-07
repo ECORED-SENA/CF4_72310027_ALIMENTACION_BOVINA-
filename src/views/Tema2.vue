@@ -93,7 +93,7 @@
 
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/4MWi-eQbmmU?si=V96k_9bU4vcAi0Mj" title="Planificación de un sistema silvopastoril" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/4MWi-eQbmmU?si=IWSGVYVtyVvURpW6" title="Planificación de un sistema silvopastoril" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video: Planificación de un sistema silvopastoril
 
 
