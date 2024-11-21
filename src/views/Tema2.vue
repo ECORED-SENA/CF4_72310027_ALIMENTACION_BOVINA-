@@ -94,7 +94,6 @@
     figure
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/4MWi-eQbmmU?si=IWSGVYVtyVvURpW6" title="Planificación de un sistema silvopastoril" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Planificación de un sistema silvopastoril
 
 
     Separador
@@ -261,7 +260,7 @@
                 p #[strong Cercas vivas simples:]
 
                 ul.custom-list.mb-0
-                  li.mb-2 Compuestas por una sola especie de árbol, como matarratón, guayabo común, ciruela de husito (Spondias spp.), o pachote (Pachira quinata). 
+                  li.mb-2 Compuestas por una sola especie de árbol, como matarratón, guayabo común, ciruela de husito (#[i Spondias spp.]), o pachote (#[i Pachira quinata]). 
                   li.mb-2 Los árboles se pueden podar cada dos años y son utilizados principalmente para delimitación y control de potreros. 
 
         .bg-color-6.mb-5
@@ -378,7 +377,7 @@
               .custom-image-card-2.d-flex.flex-column.me-4(data-aos="flip-up").mb-4
                 img.custom-image-card-2__image(src="@/assets/curso/tema2/36.png" alt="")
                 .bg-color-8.px-4.py-2
-                  h6.mb-0.text-center.text-white Leucaena
+                  h6.mb-0.text-center.text-white #[i Leucaena]
 
               .custom-image-card-2.d-flex.flex-column.me-4(data-aos="flip-down").mb-4
                 img.custom-image-card-2__image(src="@/assets/curso/tema2/37.png" alt="")

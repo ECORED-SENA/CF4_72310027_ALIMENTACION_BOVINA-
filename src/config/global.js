@@ -134,7 +134,7 @@ export default {
     {
       tema: 'Impacto económico y ambiental de la ganadería',
       referencia:
-        'Caracol Radio. (2023). ¿Cómo reducir el impacto ambiental de la ganadería?. [Archivo de video] Youtube.',
+        'Caracol Radio. (2023). ¿Cómo reducir el impacto ambiental de la ganadería?. [Archivo de video] YouTube.',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=1TpGG15s9c0&ab_channel=RuralMercadeoResponsable',
@@ -142,28 +142,28 @@ export default {
     {
       tema: 'Sistemas silvopastoriles',
       referencia:
-        'FEDEGAN. (2022). Capítulo 21 - Sistemas Silvopastoriles - Generalidades -- #ManualPrácticoGanadero. [Archivo de video] Youtube.',
+        'FEDEGAN. (2022). Capítulo 21 - Sistemas Silvopastoriles - Generalidades -- #ManualPrácticoGanadero. [Archivo de video] YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=Wp5qbTODkuQ&ab_channel=FEDEGAN',
     },
     {
       tema: 'Cercas vivas',
       referencia:
-        'La Finca de Hoy. (2022). Estos son los beneficios de las cercas vivas en las explotaciones bovinas - La Finca de Hoy. [Archivo de video] Youtube.',
+        'La Finca de Hoy. (2022). Estos son los beneficios de las cercas vivas en las explotaciones bovinas - La Finca de Hoy. [Archivo de video] YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=Y9wKlEmrGfY',
     },
     {
       tema: 'Bancos de proteínas',
       referencia:
-        'Tierrapastosyganado (2018). Bancos de Proteína como alternativa en la suplementación nutricional | Tierra Pastos y Ganado [Archivo de video] Youtube.',
+        'Tierrapastosyganado (2018). Bancos de Proteína como alternativa en la suplementación nutricional | Tierra Pastos y Ganado [Archivo de video] YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=z7Nzg4VsQmI',
     },
     {
       tema: 'Buenas Prácticas Ganaderas (BPG)',
       referencia:
-        'Ecosistema de Recursos Educativos Digitales SENA. (2022). Características y simbología de las Buenas Prácticas Ganaderas. [Archivo de video] Youtube.',
+        'Ecosistema de Recursos Educativos Digitales SENA. (2022). Características y simbología de las Buenas Prácticas Ganaderas. [Archivo de video] YouTube.',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=BHwq211HfWU&ab_channel=EcosistemadeRecursosEducativosDigitalesSENA',
@@ -250,12 +250,12 @@ export default {
     },
     {
       referencia:
-        'Instituto Colombiano Agropecuario (ICA). (2007). Buenas prácticas ganaderas. Bogotá: ICA.',
+        'Instituto Colombiano Agropecuario (ICA). (2007). Buenas Prácticas Ganaderas. Bogotá: ICA.',
       link: '',
     },
     {
       referencia:
-        'Instituto Colombiano Agropecuario (ICA). (s.f.). Buenas prácticas ganaderas en la producción de ganado bovino y bufalino destinado al sacrificio para el consumo humano.',
+        'Instituto Colombiano Agropecuario (ICA). (s.f.). Buenas Prácticas Ganaderas en la producción de ganado bovino y bufalino destinado al sacrificio para el consumo humano.',
       link:
         'https://www.ica.gov.co/getattachment/35f0d70e-b2dd-4bfc-ac1f-ba169b5ccdca/Publicacion-5.aspx',
     },
@@ -351,11 +351,6 @@ export default {
       autores: [
         {
           nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Jaime Hernán Tejada Llano',
           cargo: 'Validador y vinculador de recursos educativos digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
